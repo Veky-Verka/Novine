@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Register</title>
+	</head>
+	<body>
+		<h1>REGISTRACIJA</h1>
+		<a href="../index.html">Povratak na početnu stranu</a>
+		
+	    <a href="../slike.html">direktno na slike</a><br/><br/>
+	    
+	    
+	    <form action="../RegistracijaController" method="post">
+			Korisnicko ime: <br/><input type="text"name="ime_korisnika"/><br/><br/>
+			Ime: <br/><input type="text"name="ime"/><br/><br/>
+			Prezme: <br/><input type="text"name="prezime"/><br/><br/>
+			Adresa: <input type="text"name="adresa"/><br/><br/>
+			E-mail: <br/><input type="text"name="email"/><br/><br/>
+			Password: <input type="password"name="password"/><br/>
+			*Password mora imati min 8 karaktera, min 1 cifru, min 2 velika slova. <br/><br/>
+			Ponovi password: <input type="password"name="ponovi_password"/><br/><br/>
+			Urednik: <input type="radio"name="tip_korisnika"value="urednik"/>
+			Dopisnik: <input type="radio"name="tip_korisnika"value="dopisnik"/><br/><br/>
+			<input type="submit"value="REGISTRUJ SE"/>
+		</form> 
+		
+	</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Log in</title>
+</head>
+<body>
+	<h1>LOG IN</h1>
+		<a href="../index.html">Povratak na početnu stranu</a>
+		
+	    <a href="../slike.html">direktno na slike</a><br/><br/>
+	    
+	    
+	    <form action="../LoginController" method="post">
+			Korisnicko ime: <br/><input type="text"name="ime_korisnika"/><br/><br/>
+			Password: <input type="password"name="password"/><br/><br/>
+			Urednik: <input type="radio"name="tip_korisnika"value="urednik"/>
+			Dopisnik: <input type="radio"name="tip_korisnika"value="dopisnik"/><br/><br/>
+			<input type="submit"value="ULOGUJ SE"/>
+		</form> 
+
+</body>
+</html>
